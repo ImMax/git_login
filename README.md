@@ -2,7 +2,17 @@
 a git alias which allows to set username and email faster for a new repo.
 
 ### Install:
-Copy content of the `.gitconfig` to your git config.
+Run:
+```
+wget -O - https://raw.githubusercontent.com/ImMax/git_login/main/install.sh | bash
+```
+or
+
+clone and run `install.sh`
+
+or
+
+copy content of the `.gitconfig` to your git config.
 
 ### How to use:
  - create a file `.NAME.git_id` in `~/` where NAME is an id name. First line of the file is a git username, second is an email. 
